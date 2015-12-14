@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    #dragTarget {
+      background-image: url(https://raw.github.com/Reactive-Extensions/RxJS/master/examples/dragndrop/logo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 200px;
+      width: 200px;
+      background-color: #000000;
+      border: 1px solid #666666;
+      color: #ffffff;
+      padding: 10px;
+      position: absolute;
+    }
+  </style>
+  <script src="node_modules/rx/dist/rx.all.min.js"></script>
+  <script src="node_modules/rx-dom/dist/rx.dom.min.js"></script>
+
+</head>
+<body>
+<div id="dragTarget">Drag Me!</div>
+<div class="container">
+  <div class="page-header">
+    <h1>RxJS  Drag and Drop Example</h1>
+    <p class="lead">Example to show coordinating events to perform drag and drop</p>
+  </div>
+</div>
+
+<script src="reactivex/drag-and-drop.js"></script>
+
+</body>
+</html>
